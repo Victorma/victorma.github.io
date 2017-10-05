@@ -208,9 +208,15 @@ a:hover::before {
 	border:none;
 }
 
-#datosPersonales img {
+#datosPersonales img {    
+	display: inline-block;
+	background: url(https://avatars3.githubusercontent.com/u/3171485?v=4&s=400&u=6dd640c…);
+	color: transparent;
+	background-position: -90px -40px;
+	width: 220px;
+	height: 250px;
 	clear: both;
-	box-shadow: 0px 0px 8px #AAA;
+	box-shadow: 0px 0px 8px #AAA, 0 0 120px rgba(0,0,0,0.7) inset;
 	border: 8px solid white;
 	border-radius: 5px;
 	margin-top: 10px;
